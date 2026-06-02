@@ -23,5 +23,5 @@ def call(String buildStatus = 'STARTED') {
   }
 
   // Calling the slackSend function to Send notifications. KK FUNDA
-  slackSend (channel: '#forchecking',color: colorCode, message: summary)
+  slackSend (channel: '#forshare',color: colorCode, message: summary)
 }
